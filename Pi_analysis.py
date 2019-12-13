@@ -1,5 +1,8 @@
 #Analysis of Pi digits
 
+#Created by Yokesh
+#Email: yzs0074@auburn.edu
+
 import numpy as np
 import matplotlib.pyplot as plt
 import time
