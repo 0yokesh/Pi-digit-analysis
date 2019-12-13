@@ -24,6 +24,8 @@ start_time = time.time()   #Keep track of time (optional)
 
 #Remember the loop runs from third character to eliminate 3. at the start
 for i in range(2, n):
+    
+    #Rips the string into each digits and converts into a int data type
     tracker[int(data[i])] += 1
     
 print("--- %.8f seconds ---" % (time.time() - start_time))  #Prints the time elapsed (optional)
